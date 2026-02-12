@@ -124,6 +124,16 @@ function TelegramIntegration() {
       )}
 
       <details style={{ marginTop: 32 }}>
+        <summary style={{ cursor: 'pointer' }}>Где взять Bot Token?</summary>
+        <ol style={{ lineHeight: 1.8 }}>
+          <li>Откройте <strong>@BotFather</strong> в Telegram</li>
+          <li>Отправьте /newbot и следуйте инструкциям</li>
+          <li>Скопируйте Bot Token</li>
+          <li>Перейдите в бот и нажмите /start</li>
+        </ol>
+      </details>
+
+      <details style={{ marginTop: 16 }}>
         <summary style={{ cursor: 'pointer' }}>Как узнать Chat ID?</summary>
         <ol style={{ lineHeight: 1.8 }}>
           <li>Откройте <strong>@Getmyid_Work_Bot</strong> в Telegram и нажмите /start</li>

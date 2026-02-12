@@ -18,8 +18,9 @@ docker compose exec backend vendor/bin/phpunit
 ## Подключение Telegram
 
 1. Откройте @BotFather в Telegram
-2. Отправьте `/newbot` и следуйте инструкциям
-3. Скопируйте BotToken
+2. Отправьте /newbot и следуйте инструкциям
+3. Скопируйте Bot Token
+4. Перейдите в бот и нажмите /start
 
 1. Откройте @Getmyid_Work_Bot и нажмите /start
 2. Скопируйте ChatID
